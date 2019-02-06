@@ -7,7 +7,7 @@ public class Main {
         int adunare = x + y;
         System.out.println(adunare);
         int scadere = x-y ;
-        System.out.println(scadere);
+        System.out.println("scadere=" +scadere);
 
     }
 }
