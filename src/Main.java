@@ -1,10 +1,10 @@
 public class Main {
 
     public static void main(String[] args) {
-       short x=10000;
-       short y = 50;
+       byte x=100;
+       byte y = 50;
 
-        long adunare = x + y;
+        int adunare = x + y;
         System.out.println(adunare);
         int scadere = x-y ;
         System.out.println("scadere=" +scadere);
