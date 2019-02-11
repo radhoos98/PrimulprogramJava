@@ -1,10 +1,10 @@
 public class Main {
 
     public static void main(String[] args) {
-       int x=10;
-       int y = 5;
+       short x=10000;
+       short y = 50;
 
-        int adunare = x + y;
+        long adunare = x + y;
         System.out.println(adunare);
         int scadere = x-y ;
         System.out.println("scadere=" +scadere);
@@ -12,7 +12,7 @@ public class Main {
         int impartire = x/y;
         System.out.println(impartire);
         System.out.println("impartire=" +impartire);
-        int inmultire = x*y ;
+        long inmultire = x*y ;
         System.out.println(x*y);
         System.out.println("inmultire=" +inmultire);
         //prints "inmultire=50 in the terminal window
