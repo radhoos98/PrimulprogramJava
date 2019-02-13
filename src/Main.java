@@ -1,24 +1,21 @@
 public class Main {
 
     public static void main(String[] args) {
-       double x=1.6;
-       double y = 50.4;
+        int x=7;
+        int y=8;
+        System.out.println("hello");
+        System.out.println("Radu Serbanescu");
 
-        double adunare = x + y;
-        System.out.println(adunare);
-        double scadere = x-y ;
-        System.out.println("scadere=" +scadere);
-        System.out.println(x/y);
-        double impartire = x/y;
-        System.out.println(impartire);
-        System.out.println("impartire=" +impartire);
-        double inmultire = x*y ;
-        System.out.println(x*y);
-        System.out.println("inmultire=" +inmultire);
-        //prints "inmultire=50 in the terminal window
+        int adunare=x+y;
+        System.out.println(x+y);
+        System.out.println("adunare=" +adunare);
+        double impartire=y/x;
+        System.out.println("impartire" +impartire);
 
-
-
+        System.out.println(-5 +8 *6);
+        System.out.println((55+9)%9);
+        System.out.println(20 + -3*5 /8);
+        System.out.println(5 +15/3 *2 -8 % 3);
     }
 }
 
