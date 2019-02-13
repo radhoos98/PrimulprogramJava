@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
+        Scanner scanez = new Scanner (System.in);
 //        double x = 7;
 //        int y = 8;
 //        System.out.println("hello");
@@ -24,6 +27,14 @@ public class Main {
         System.out.println(impartire (8,4));
         System.out.println(scadere(21,11));
 
+
+Baiat ionut=new Baiat();
+ionut.culoare="verde";
+ionut.greutate= 28.3f;
+ionut.inaltime=120;
+ionut.nume="Ionut";
+
+        System.out.println(ionut.culoare);
     }
 
 
