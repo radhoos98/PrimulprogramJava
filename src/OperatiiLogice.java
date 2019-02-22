@@ -12,7 +12,7 @@ public class OperatiiLogice {
         }
     }
 
-    public static void compareNumber(int number) {
+    public  void compareNumber(int number) {
         int a = 2;
         int b = 8;
         if (number >= a) {
@@ -22,7 +22,7 @@ public class OperatiiLogice {
         }
     }
 
-    public static void checkNumber() {
+    public  void checkNumber() {
         int x = 5;
         int y = 6;
         if (x > y) {
