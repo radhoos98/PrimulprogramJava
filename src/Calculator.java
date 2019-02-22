@@ -11,12 +11,12 @@ public class Calculator {
         return resultat;
     }
 
-    public static int inmultire(int primulNumar, int alDoileaNumar) {
+    public int inmultire(int primulNumar, int alDoileaNumar) {
         int resultat = primulNumar * alDoileaNumar;
         return resultat;
     }
 
-    public static int impartire(int primulNumar, int alDoileaNumar) {
+    public  int impartire(int primulNumar, int alDoileaNumar) {
         int resultat = primulNumar / alDoileaNumar;
         return resultat;
     }
