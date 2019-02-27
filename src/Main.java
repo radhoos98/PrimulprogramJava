@@ -103,12 +103,65 @@ public class Main {
 //        int nr= scanez.nextInt();
 //        System.out.println(nr*nr);
 //exercitiul 13
-        System.out.println("read two numbers and print their divided value");
-        int x=scanez.nextInt();
-        int y=scanez.nextInt();
-        double impartire = (x/y);
-        System.out.println(impartire);
+//        System.out.println("read two numbers and print their divided value");
+//        int x=scanez.nextInt();
+//        int y=scanez.nextInt();
+//        double impartire = (x/y);
+//        System.out.println(impartire);
+ //exercitiul 15
 
+//        System.out.println("read three numbers" + "print the highest");
+//        int a  =scanez.nextInt();
+//        int b= scanez.nextInt();
+//        int c =scanez.nextInt();
+//        if (a>b && a>c )
+//            System.out.println(a);
+//        else if (b>a&&b>c)
+//            System.out.println(b);
+//        else if (c>a&&c>b)
+//            System.out.println(c);
+ //exercitiul 16
+//        System.out.println("read four numbers, then print the highest");
+//        int aa=scanez.nextInt();
+//        int bb=scanez.nextInt();
+//        int cc=scanez.nextInt();
+//        int dd=scanez.nextInt();
+//        if (aa>bb&&aa>cc&&aa>dd)
+//            System.out.println(aa);
+//        else if (bb>aa&&bb>cc&&bb>dd)
+//            System.out.println(bb);
+//        else if (cc>aa&&cc>bb&&cc>dd)
+//            System.out.println(cc);
+//        else if (dd>aa&&dd>bb&&dd>cc)
+//            System.out.println(dd);
+  //exercitiul 17
+//        System.out.println("read three numbers, then print the lowest and the highest");
+//        int f=scanez.nextInt();
+//        int g=scanez.nextInt();
+//        int h=scanez.nextInt();
+//        if (f>g&&f>h)
+//            System.out.println("the largest number is " + f);
+//        else if (g>f&&g>h)
+//            System.out.println("the largest number is " + g);
+//        else if (h>f&&h>g)
+//            System.out.println("the largest number is " + h);
+//        if (f<g&&f<h)
+//            System.out.println("the smallest number is" + f);
+//        else if (g<f&&g<h)
+//            System.out.println("the smallest number is "+ g);
+//        else if (h<f&&h<g)
+//            System.out.println("the smallest number is " + h);
 
+    //exercitiul 18
+        System.out.println("read twoo numbers, then print them in upscale order");
+        int u=scanez.nextInt();
+        int v=scanez.nextInt();
+        if (u>v)
+            System.out.println( u & v);
+        else if (v>u)
+            System.out.println(v & u);
+    //aici, m-am cam pierdut....nu inteleg de ce nu-mi printeaza ambele numere
 
-}}
+}
+
+}

@@ -1,9 +1,9 @@
 public class Baiat {
-    String culoare;
-    int varsta;
-    int inaltime;
-    float greutate;
-    String nume;
+   private String culoare;
+   private int varsta;
+   private int inaltime;
+   private  float greutate;
+     private String nume;
 
     public void alearga() {
         System.out.println("Baiatul alearga mult");

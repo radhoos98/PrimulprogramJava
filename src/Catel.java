@@ -1,8 +1,8 @@
 public class Catel {
-    String nume;
-    String rasa;
-    int varsta;
-    float greutate;
+   private String nume;
+    private String rasa;
+   private int varsta;
+    private float greutate;
 
     public void latra (){
         System.out.println("ham ham");

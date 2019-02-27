@@ -1,9 +1,9 @@
 public class Veterinar {
-    String nume;
-    int varsta;
-    String specializare;
-    String culoareHalat;
-    long numarTelefon;
+  private   String nume;
+   private int varsta;
+   private String specializare;
+   private String culoareHalat;
+   private long numarTelefon;
 
     public void consulta() {
         System.out.println("asculta cu stetoscopul");

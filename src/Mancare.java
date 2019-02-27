@@ -14,9 +14,9 @@ public class Mancare {
     public void consistenta (){
         System.out.println( "bucatele");
     }
-public void setGreutate(double greutate){
-        this.greutate= greutate;
-}
+
+
+
 
     public int getNumarPortii() {
         return this.numarPortii;
@@ -50,5 +50,6 @@ public void setGreutate(double greutate){
     public void setContinut(String continut) {
         this.continut = continut;
     }
+    public void setGreutate(double greutate) {this.greutate=greutate; }
 }
 
