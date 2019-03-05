@@ -1,4 +1,4 @@
-public class Mancare {
+public class Mancare extends Thing{
    private double greutate;
    private int numarPortii;
     private String denumire;

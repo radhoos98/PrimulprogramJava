@@ -1,4 +1,4 @@
-public class Catel {
+public class Catel extends Animal{
    private String nume;
     private String rasa;
    private int varsta;
@@ -45,5 +45,25 @@ public class Catel {
 
     public int getVarsta() {
         return varsta;
+    }
+
+Catel Grivei=new Catel();
+
+    public Catel getGrivei() {
+        return Grivei;
+    }
+
+    public void setGrivei(Catel grivei) {
+        Grivei = grivei;
+    }
+
+    Catel Azorel=new Catel();
+
+    public Catel getAzorel() {
+        return Azorel;
+    }
+
+    public void setAzorel(Catel azorel) {
+        Azorel = azorel;
     }
 }

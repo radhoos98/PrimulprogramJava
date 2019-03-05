@@ -1,4 +1,4 @@
-public class Baiat {
+public class Baiat extends Human {
    private String culoare;
    private int varsta;
    private int inaltime;
@@ -53,11 +53,21 @@ public class Baiat {
         return greutate;
     }
 
-    public int getInaltime() {
-        return inaltime;
-    }
 
     public String getCuloare() {
         return culoare;
     }
+
+    Baiat Ionut=new Baiat();
+
+    public Baiat getIonut() {
+        return Ionut;
+    }
+
+    Baiat Alexandru=new Baiat();
+
+    public Baiat getAlexandru() {
+        return Alexandru;
+    }
 }
+

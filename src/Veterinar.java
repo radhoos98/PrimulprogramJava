@@ -1,4 +1,4 @@
-public class Veterinar {
+public class Veterinar extends Human{
   private   String nume;
    private int varsta;
    private String specializare;
@@ -65,4 +65,14 @@ public class Veterinar {
         return specializare;
     }
 
+    Veterinar Matei=new Veterinar();
+
+    public Veterinar getMatei() {
+        return Matei;
+    }
+    Veterinar Popescu=new Veterinar();
+
+    public Veterinar getPopescu() {
+        return Popescu;
+    }
 }
