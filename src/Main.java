@@ -26,11 +26,13 @@ public class Main {
 //   Exercitiul 3
 
 //        System.out.println("write a Java program by using two for loops to produce the output below");
-//        for (int column=0;column<=7;column++) {
-//            System.out.println("*");
-//        for (int row = 1; row <= 7-column; row++) {
-//            System.out.print("*");}
-
+//        for (int column = 0; column <= 7; column++) {
+//
+//            for (int row = 1; row <= 7 - column; row++) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
 //  NU INTELEG DE CE IMI PRINTEAZA  O STELUTA ININTEA ORDINII CERUTE
 //
 //
@@ -60,7 +62,7 @@ public class Main {
         //do while method
 
 //LOOP 3
-        System.out.println("modify the program to sum from 111 to 8899");
+//        System.out.println("modify the program to sum from 111 to 8899");
 //        int rezultat = 0;
 //
 //        for(int a=111;a<=8899;a++) {
@@ -70,16 +72,30 @@ public class Main {
 //        }
 //        System.out.println(rezultat);
 //        System.out.println(rezultat/4394)
-        int count=0;
-        for(int a=111;a<=8899;) {
-            if (count>=111&&count<=8899)count++;
+//        int count=0;
+//        for(int a=111;a<=8899;a++) {
+//            if (count>=111&&count<=8899)count++;
+//        }
+//
+//
+//
+//        System.out.println(count);
+
+
+        int[] myArray = new int[100];
+        for (int i = 0; i < 100; i++) {
+            myArray[i] = i + 1;
         }
+        for (int i = 0; i < 100; i++) {
+////            System.out.println(myArray[i]);
+////        }
+        }
+    }
+
+    String[] myArray =new String[10];
+}
 
 
-
-        System.out.println(count);
-
-}}
 
 
 

@@ -1,3 +1,5 @@
+package calculator;
+
 import java.util.Scanner;
 
 public class OperatiiLogice {
@@ -170,6 +172,13 @@ public class OperatiiLogice {
 
 
 
+             public void printHyphenArray(){
+        String[] myArray= new String[10];
+        for (int i=0; i<myArray.length; i++){
+            myArray [i]="- ";
+        }
+        for (int i=0;i<myArray.length;i++ );
+             }
 
 
 

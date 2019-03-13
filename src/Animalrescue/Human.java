@@ -1,3 +1,5 @@
+package Animalrescue;
+
 public class Human {
     private String name;
     private String culoare;
