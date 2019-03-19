@@ -2,25 +2,31 @@ package Animalrescue;
 
 public class Baiat extends Human {
 
-
-    public void alearga() {
-        System.out.println("Baiatul alearga mult");
+    @Override
+    public void moove() {
+        System.out.println("walk");
     }
 
-    public void doarme() {
-        System.out.println("Baiatul sforaie...zzz");
+    @Override
+    public void callTheAnimal() {
+        System.out.println("here dogie");
     }
 
-    public void cumparaMancare() {
-        System.out.println("Baiatul cumpara petfood");
+    @Override
+    public void relax() {
+        System.out.println("play videogames");
     }
 
-    public void cheamaCatelul() {
-        System.out.println("Hey Doggie Doggie!");
+    @Override
+    public void work() {
+        System.out.println("do homeworks");
     }
 
-
+    @Override
+    public void run() {
+        System.out.println("run fast");
     }
+}
 
 
 

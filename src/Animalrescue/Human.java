@@ -64,4 +64,34 @@ public class Human {
     public long getNumarDeTelefon() {
         return numarDeTelefon;
     }
+
+
+    public void run() {
+        System.out.println("run");
+    }
+
+    public void sleep() {
+        System.out.println("sleep");
+    }
+
+    public void buyFood() {
+        System.out.println("buy food");
+    }
+
+    public void callTheAnimal() {
+        System.out.println("call animal");
+    }
+    public void moove(){
+        System.out.println("moove");
+    }
+    public void eat(){
+        System.out.println("eat");
+    }
+    public void work(){
+        System.out.println("work");
+    }
+    public void relax (){
+        System.out.println("relax");
+    }
+
 }

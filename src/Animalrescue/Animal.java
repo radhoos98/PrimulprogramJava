@@ -45,4 +45,26 @@ public class Animal {
     public String getCuloare() {
         return culoare;
     }
+    public void speak (){
+        System.out.println("the animal speaks");
+    }
+    public void eat (){
+        System.out.println("the animal eats");
+    }
+    public void play (){
+        System.out.println("the animal plays");
+    }
+    public void sleep (){
+        System.out.println("the animal sleeps");
+    }
+    public void runs(){
+        System.out.println("the animal runs");
+    }
+    public void jump(){
+        System.out.println("the animal jump");
+    }
+    public void moove(){
+        System.out.println("move");
+    }
+
 }

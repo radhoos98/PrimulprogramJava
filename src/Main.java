@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
 
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
         Scanner scanez = new Scanner(System.in);
 //        String hhh = scanez.next();
 //        int c = scanez.nextInt();
@@ -82,20 +82,68 @@ public class Main {
 //        System.out.println(count);
 
 
-        int[] myArray = new int[100];
-        for (int i = 0; i < 100; i++) {
-            myArray[i] = i + 1;
-        }
-        for (int i = 0; i < 100; i++) {
+//        int[] myArray = new int[100];
+//        for (int i = 0; i < 100; i++) {
+//            myArray[i] = i + 1;
+//        }
+//        for (int i = 0; i < 100; i++) {
 ////            System.out.println(myArray[i]);
 ////        }
+//        }
+
+// Lab 13  Exercitiul 4
+
+//     public static boolean contains(int[] arr, int number) {
+//        for (int n : arr) {
+//            if (number == n) {
+//                return true;
+//            }
+//        }
+//        return false;
+//    }
+//    public static void main(String[] args) {
+//        int[] my_array1 = {
+//                245, 205, 869, 334,13};
+//        System.out.println(contains(my_array1, 13));
+//        System.out.println(contains(my_array1, 245));
+//    }
+
+//    Lab 13 Exercitiul 5
+
+    public static int findIndex(int arr[], int x)
+    {
+
+        if (arr == null) {
+            return -1;
         }
+
+        int len = arr.length;
+        int i = 0;
+
+
+        while (i < len) {
+
+            if (arr[i] == x) {
+                return i;
+            }
+            else {
+                i = i + 1;
+            }
+        }
+        return -1;
     }
 
-    String[] myArray =new String[10];
+    public static void main(String[] args)
+    {
+        int[] my_array = { 3,6,1,7,9,2,0,5};
+
+        System.out.println("Index position of 5 is: "
+                + findIndex(my_array, 1));
+
+        System.out.println("Index position of 7 is: "
+                + findIndex(my_array, 9));
+    }
 }
-
-
 
 
 

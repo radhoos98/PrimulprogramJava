@@ -1,84 +1,35 @@
 package Animalrescue;
 
 public class Pasare extends Animal {
-    @Override
-    public String getName() {
-        return super.getName();
-    }
 
     @Override
-    public String getRasa() {
-        return super.getRasa();
+    public void eat() {
+        System.out.println("gulp");
     }
 
     @Override
-    public int getVarsta() {
-        return super.getVarsta();
+    public void jump() {
+        System.out.println("hop");
     }
 
     @Override
-    public String getCuloare() {
-        return super.getCuloare();
+    public void runs() {
+        System.out.println("move quickly");
     }
 
     @Override
-    public float getGreutate() {
-        return super.getGreutate();
+    public void sleep() {
+        System.out.println("close eyes" + "put head between feathers");
     }
 
     @Override
-    public void setName(String name) {
-        super.setName(name);
+    public void speak() {
+        System.out.println("chirps");
     }
 
     @Override
-    public void setRasa(String rasa) {
-        super.setRasa(rasa);
-    }
-
-    @Override
-    public void setVarsta(int varsta) {
-        super.setVarsta(varsta);
-    }
-
-    @Override
-    public void setCuloare(String culoare) {
-        super.setCuloare(culoare);
-    }
-
-    @Override
-    public void setGreutate(float greutate) {
-        super.setGreutate(greutate);
-    }
-
-    Pasare privighetoare=new Pasare();
-
-    public Pasare getPrivighetoare() {
-        return privighetoare;
-    }
-
-    public void setPrivighetoare(Pasare privighetoare) {
-        this.privighetoare = privighetoare;
-
-    }
-    Pasare ciocarlie=new Pasare();
-
-    public Pasare getCiocarlie() {
-        return ciocarlie;
-    }
-
-    public void setCiocarlie(Pasare ciocarlie) {
-        this.ciocarlie = ciocarlie;
-    }
-
-    Pasare pitigoi=new Pasare();
-
-    public Pasare getPitigoi() {
-        return pitigoi;
-    }
-
-    public void setPitigoi(Pasare pitigoi) {
-        this.pitigoi = pitigoi;
+    public void moove() {
+        System.out.println("fly");
     }
 }
 

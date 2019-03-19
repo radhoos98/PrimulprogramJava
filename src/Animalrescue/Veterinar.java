@@ -1,46 +1,29 @@
 package Animalrescue;
 
-public class Veterinar extends Human{
+public class Veterinar extends Human {
 
-   private String specializare;
-   private String culoareHalat;
-
-
-    public void consulta() {
-        System.out.println("asculta cu stetoscopul");
+    @Override
+    public void work() {
+        System.out.println("examines animals");
     }
 
-    public void administreazaTratamentIntramuscular() {
-        System.out.println("face injectie intramuscuara");
+    @Override
+    public void moove() {
+        System.out.println("walk through the room");
     }
 
-    public void administreazaTratamentIntravenos() {
-        System.out.println("pune perfuzie");
+    @Override
+    public void eat() {
+        System.out.println("have a nice meal");
     }
 
-    public void toaleteaza() {
-        System.out.println("perie blana si toaleteaza unghiile");
+    @Override
+    public void relax() {
+        System.out.println("take a break");
     }
 
-    public void treat() {
-        System.out.println("da cainelui o bomboana");
+    @Override
+    public void callTheAnimal() {
+        System.out.println("get the animal");
     }
-
-    public void setCuloareHalat(String culoareHalat) {
-        this.culoareHalat = culoareHalat;
-    }
-
-    public void setSpecializare(String specializare) {
-        this.specializare = specializare;
-    }
-
-    public String getCuloareHalat() {
-        return culoareHalat;
-    }
-
-    public String getSpecializare() {
-        return specializare;
-    }
-
-
 }
